@@ -1,0 +1,8 @@
+html, body{
+    margin: 0;
+}
+
+.some:after{
+    content: "(+)";
+    margin-left: 10px;
+}
