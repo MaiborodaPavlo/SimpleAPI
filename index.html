@@ -7,9 +7,20 @@
         <link href="css/styles.css" rel="stylesheet">
     </head>
     <body>
-        <div class="sample">
-            
-        </div>
+        <form class="authForm">
+            Login<br>
+            <input type="text" name="login"><br>
+            Password<br>
+            <input type="password" name="password"><br>
+            <hr>
+            <input type="button" class="authForm__btn" value="Авторизоваться">
+            <div class="errors authForm__errors">
+
+            </div>
+        </form>
+        <hr>
+        <input type="button" class="getAll" value="Все статьи">
+        <div class="list"></div>
         <script src="js/main.js"></script>
     </body>
 </html>
